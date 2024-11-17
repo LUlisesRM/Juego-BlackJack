@@ -45,7 +45,7 @@ btnPedir.addEventListener('click', () => {
     const carta = pedirCarta(deck);    
 
     puntosJugador = puntosJugador + valorCarta(carta);
-    puntosHTML[0].innerText = puntosJugador;
+    puntosHTML[1].innerText = puntosJugador;
 
     //<img class="carta" src="cartas/2C.png">
     const imgCarta = crearCartaHTML(carta);
